@@ -269,7 +269,7 @@ body {
 .time-display {
   position: absolute;
   left: 50%;
-  top: 36.5%;
+  top: 37%;
   transform: translate(-50%, -50%);
   z-index: 4;
 
@@ -277,7 +277,7 @@ body {
   border-radius: 999px;
    /* background: rgba(255, 255, 255, 0.78); */ 
   color: #6b75b8;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 800;
   letter-spacing: 0.04em;
  /* box-shadow: 0 4px 12px rgba(120, 100, 160, 0.16); */ 
