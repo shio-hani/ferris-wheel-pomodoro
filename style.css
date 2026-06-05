@@ -269,7 +269,7 @@ body {
 .time-display {
   position: absolute;
   left: 50%;
-  top: 38%;
+  top: 36.5%;
   transform: translate(-50%, -50%);
   z-index: 4;
 
