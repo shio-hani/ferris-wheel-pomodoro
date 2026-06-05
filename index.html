@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>観覧車ポモドーロタイマー</title>
+
+  <!-- CSSファイルを読み込む -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <footer class="site-footer">
+    <p>© 2026 しおり</p>
+    <p>ご利用時はクレジット表記をお願いします。</p>
+  </footer>
+  
+  <div class="ferris-timer">
+    <!-- 固定：支柱 -->
+    <img class="stand" src="images/kanran02.png" alt="観覧車の支柱">
+
+    <!-- 回転：ホイール -->
+    <img class="wheel" src="images/kanran01.png" alt="観覧車のホイール">
+
+    <!-- ゴンドラたち -->
+<div class="gondolas">
+  <div class="gondola active" style="--i:0;">
+    <img src="images/g01.png" alt="">
+    <span class="num">1</span>
+    <div class="robo-wrap">
+      <img class="robo" src="images/robo01.png" alt="">
+      <span class="flag" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <div class="gondola" style="--i:1;">
+    <img src="images/g01.png" alt="">
+    <span class="num">2</span>
+    <div class="robo-wrap">
+      <img class="robo" src="images/robo02.png" alt="">
+      <span class="flag" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <div class="gondola" style="--i:2;">
+    <img src="images/g01.png" alt="">
+    <span class="num">3</span>
+    <div class="robo-wrap">
+      <img class="robo" src="images/robo03.png" alt="">
+      <span class="flag" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <div class="gondola" style="--i:3;">
+    <img src="images/g01.png" alt="">
+    <span class="num">4</span>
+    <div class="robo-wrap">
+      <img class="robo" src="images/robo04.png" alt="">
+      <span class="flag" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <div class="gondola" style="--i:4;">
+    <img src="images/g01.png" alt="">
+    <span class="num">5</span>
+    <div class="robo-wrap">
+      <img class="robo" src="images/robo05.png" alt="">
+      <span class="flag" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <div class="gondola" style="--i:5;">
+    <img src="images/g01.png" alt="">
+    <span class="num">6</span>
+    <div class="robo-wrap">
+      <img class="robo" src="images/robo06.png" alt="">
+      <span class="flag" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <div class="gondola" style="--i:6;">
+    <img src="images/g01.png" alt="">
+    <span class="num">7</span>
+    <div class="robo-wrap">
+      <img class="robo" src="images/robo07.png" alt="">
+      <span class="flag" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <div class="gondola" style="--i:7;">
+    <img src="images/g01.png" alt="">
+    <span class="num">8</span>
+    <div class="robo-wrap">
+      <img class="robo" src="images/robo08.png" alt="">
+      <span class="flag" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <div class="gondola" style="--i:8;">
+    <img src="images/g01.png" alt="">
+    <span class="num">9</span>
+    <div class="robo-wrap">
+      <img class="robo" src="images/robo09.png" alt="">
+      <span class="flag" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <div class="gondola" style="--i:9;">
+    <img src="images/g01.png" alt="">
+    <span class="num">10</span>
+    <div class="robo-wrap">
+      <img class="robo" src="images/robo10.png" alt="">
+      <span class="flag" aria-hidden="true"></span>
+    </div>
+  </div>
+</div>
+
+    <!-- 中央タイマー -->
+    <div class="time-display">25:00</div>
+    
+    <div class="controls">
+         <button id="startBtn">START</button>
+         <button id="resetBtn">RESET</button>
+     </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
